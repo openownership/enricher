@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gleif-enricher"
+version = "0.1.0"
+description = "Enrichment tool for GLEIF data"
+authors = ["Your Name <you@example.com>"]
+license = "AGPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = "^8.1.8"
+elasticsearch = "^8.17.1"
+requests = "^2.32.3"
+boto3 = "^1.36.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
