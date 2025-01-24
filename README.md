@@ -64,5 +64,5 @@ poetry run black .
 
 # License
 
-This project is licensed under the AGPL-3.0 License - see the [LICENSE](LICENSE).
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
 
