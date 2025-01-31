@@ -1,0 +1,10 @@
+source:
+  es:
+    host: localhost:9200
+    index: gleif_data
+  match_field: LEI
+enrichment:
+  es:
+    host: localhost:9200
+    index: add_ids
+  match_field: uid

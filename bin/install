@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# This script is used to install the CLI
+
+set -e
+
+# Check dependencies
+if ! command -v poetry &> /dev/null; then
+    echo "Poetry is not installed. Please install Poetry and try again."
+    exit 1
+fi
+
+# Install the CLI via poetry
+poetry install

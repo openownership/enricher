@@ -1,0 +1,38 @@
+[
+  {
+    "_index": "add_ids",
+    "_type": "_doc",
+    "_id": "sk:35903058:Y/UqhQ3po3JwrE78r18hpexQjzNqsNYD",
+    "_score": 2.5092592,
+    "_source": {
+      "company_number": "35903058",
+      "jurisdiction_code": "sk",
+      "uid": "097900BHF50000076475",
+      "identifier_system_code": "lei"
+    }
+  },
+  {
+    "_index": "add_ids",
+    "_type": "_doc",
+    "_id": "sk:31320155:k7otjVG13A2pCe6hyO0P7ZgvrwKXmST8",
+    "_score": 2.5092592,
+    "_source": {
+      "company_number": "31320155",
+      "jurisdiction_code": "sk",
+      "uid": "549300JB1P61FUTPEZ75",
+      "identifier_system_code": "lei"
+    }
+  },
+  {
+    "_index": "add_ids",
+    "_type": "_doc",
+    "_id": "sk:52143058:/fMjUCI23hQDJbrMxMVQrlDQgv1iDoAc",
+    "_score": 2.5092592,
+    "_source": {
+      "company_number": "52143058",
+      "jurisdiction_code": "sk",
+      "uid": "097900BJGO0000201513",
+      "identifier_system_code": "lei"
+    }
+  }
+]
