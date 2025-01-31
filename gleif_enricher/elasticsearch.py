@@ -1,12 +1,12 @@
-from gleif_enricher.cli.config import get as cli_get
+from gleif_enricher.cli.config import get_value as cli_get
 
 
 def setup_enrichment_oc_id(es):
     # Define the enrich policy
     enrich_policy = {
         "match": {
-            "indices": cli_get("enrichment.es.index"),
-            "match_field": cli_get("enrichment.match_field"),
+            "indices": cli_get(key="enrichment.es.index"),
+            "match_field": cli_get(key="enrichment.match_field"),
             "enrich_fields": ["_id"],
         }
     }
@@ -22,7 +22,7 @@ def setup_enrichment_oc_id(es):
             {
                 "enrich": {
                     "policy_name": "add_oc_ids_policy",
-                    "field": cli_get("enrichment.match_field"),
+                    "field": cli_get(key="enrichment.match_field"),
                     "target_field": "opencorporates_id",
                     "max_matches": "1",
                 }
@@ -37,8 +37,8 @@ def setup_enrichment_oc_id(es):
 def setup_enrichment_national_ids(es):
     enrich_policy = {
         "match": {
-            "indices": cli_get("enrichment.es.index"),
-            "match_field": cli_get("enrichment.match_field"),
+            "indices": cli_get(key="enrichment.es.index"),
+            "match_field": cli_get(key="enrichment.match_field"),
             "enrich_fields": ["_source.uid", "_source.jurisdiction_code"],
         }
     }
@@ -54,7 +54,7 @@ def setup_enrichment_national_ids(es):
             {
                 "enrich": {
                     "policy_name": "add_national_ids_policy",
-                    "field": cli_get("enrichment.match_field"),
+                    "field": cli_get(key="enrichment.match_field"),
                     "target_field": "national_id",
                     "max_matches": "1",
                 }
