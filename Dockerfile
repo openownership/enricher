@@ -9,4 +9,4 @@ RUN pip install poetry
 RUN poetry install
 
 # Set the entrypoint to the CLI application
-ENTRYPOINT ["poetry", "run", "python", "gleif_enricher/cli.py"]
+ENTRYPOINT ["poetry", "run", "gleif-enricher"]

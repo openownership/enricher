@@ -44,63 +44,54 @@ poetry run gleif_enricher
 The tool will look for a configuration file in the current directory, named
 `config.yaml`.
 
-## Subcommands
+## Commands
 
-### `config get`
-
-Retrieve a value from the configuration file.
+### `config`
 
 ```bash
+# get: retrieve a value from the configuration file
 poetry run python -m gleif_enricher config get <key>
-```
-
-Example:
-
-```bash
+# Example:
 poetry run python -m gleif_enricher config get source.index
-```
 
-### `config set`
-
-Set a value in the configuration file.
-
-```bash
+# set: set a value in the configuration file
 poetry run python -m gleif_enricher config set <key> <value>
-```
-
-Example:
-
-```bash
+# Example:
 poetry run python -m gleif_enricher config set source.index gleif_index_name
-```
 
-To remove a key from the configuration file, omit the value:
-
-```bash
+# set: remove a key from the configuration file
 poetry run python -m gleif_enricher config set <key>
-```
-
-Example:
-
-```bash
+# Example:
 poetry run python -m gleif_enricher config set source.index
 ```
 
-### `enrich setup`
+### `enrich`
 
-Set up the enrichment processor in Elasticsearch.
 
 ```bash
+# setup: set up the enrichment processor(s) configured
 poetry run python -m gleif_enricher enrich setup
-```
 
-### `enrich start`
-
-Start the enrichment process.
-
-```bash
+# start: start the enrichment process.
 poetry run python -m gleif_enricher enrich start
 ```
+
+## Docker
+
+This tool can be run using Docker and Docker Compose.
+
+Building:
+
+```bash
+docker-compose build enricher
+```
+
+Running:
+```bash
+docker-compose run --rm enricher
+docker-compose run --rm enricher config get source.es.host
+```
+
 
 # Development
 

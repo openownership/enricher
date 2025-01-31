@@ -18,7 +18,7 @@ services:
       - ./config.yaml:/app/config.yaml
     env_file:
       - .env
-    entrypoint: ["poetry", "run", "python", "gleif_enricher/main.py"]
+    entrypoint: ["poetry", "run", "gleif-enricher"]
 
 volumes:
   esdata:
