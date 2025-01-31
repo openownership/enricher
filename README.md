@@ -38,7 +38,7 @@ Alternatively, you may use the bundled shell script:
 The tool can be run using the following command:
 
 ```bash
-poetry run gleif_enricher
+poetry run gleif-enricher
 ```
 
 The tool will look for a configuration file in the current directory, named
@@ -89,7 +89,10 @@ docker-compose build enricher
 Running:
 ```bash
 docker-compose run --rm enricher
+docker-compose run --rm enricher <command>
+# Examples
 docker-compose run --rm enricher config get source.es.host
+docker-compose run --rm enricher enrich start
 ```
 
 
