@@ -5,6 +5,7 @@ source:
   match_field: LEI
 enrichment:
   es:
-    host: localhost:9200
+    # host: localhost:9200
+    # For now, the enrichment index is unique and will have to live in the same instance as the source index
     index: add_ids
   match_field: uid
