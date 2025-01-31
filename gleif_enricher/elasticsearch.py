@@ -12,7 +12,10 @@ def setup_enrichment_oc_id(es):
     }
 
     # Create and execute the enrich policy
-    es.enrich.put_policy(name="add_oc_ids_policy", body=enrich_policy)
+    es.enrich.put_policy(
+        name="add_oc_ids_policy",
+        body=enrich_policy,
+    )
     es.enrich.execute_policy(name="add_oc_ids_policy")
 
     # Define the enrich processor
