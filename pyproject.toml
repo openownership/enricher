@@ -3,7 +3,7 @@ name = "gleif_enricher"
 version = "0.1.0"
 description = "Enrichment tool for GLEIF data"
 authors = ["Open Ownership <info@openownership.org>"]
-license = "Apache-2.0"
+license = "AGPL-3.0"
 packages = [
     { include = "gleif_enricher" }
 ]

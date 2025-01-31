@@ -27,12 +27,18 @@ This tool is written in Python, and can be installed using poetry:
 poetry install
 ```
 
+Alternatively, you may use the bundled shell script:
+
+```bash
+./bin/install
+```
+
 # Usage
 
 The tool can be run using the following command:
 
 ```bash
-poetry run python -m gleif_enricher
+poetry run gleif_enricher
 ```
 
 The tool will look for a configuration file in the current directory, named
@@ -51,7 +57,7 @@ poetry run python -m gleif_enricher config get <key>
 Example:
 
 ```bash
-poetry run python -m gleif_enricher config get Entity.LegalName
+poetry run python -m gleif_enricher config get source.index
 ```
 
 ### `config set`
@@ -65,7 +71,7 @@ poetry run python -m gleif_enricher config set <key> <value>
 Example:
 
 ```bash
-poetry run python -m gleif_enricher config set Entity.LegalName "New Name"
+poetry run python -m gleif_enricher config set source.index gleif_index_name
 ```
 
 To remove a key from the configuration file, omit the value:
@@ -77,7 +83,23 @@ poetry run python -m gleif_enricher config set <key>
 Example:
 
 ```bash
-poetry run python -m gleif_enricher config set Entity.LegalName
+poetry run python -m gleif_enricher config set source.index
+```
+
+### `enrich setup`
+
+Set up the enrichment processor in Elasticsearch.
+
+```bash
+poetry run python -m gleif_enricher enrich setup
+```
+
+### `enrich start`
+
+Start the enrichment process.
+
+```bash
+poetry run python -m gleif_enricher enrich start
 ```
 
 # Development
@@ -102,4 +124,4 @@ poetry run black .
 
 # License
 
-This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU Affero General Public License v3.0.
