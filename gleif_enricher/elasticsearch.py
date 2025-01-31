@@ -1,26 +1,29 @@
-def setup_enrichment(es):
+from gleif_enricher.cli.config import get as cli_get
+
+
+def setup_enrichment_oc_id(es):
     # Define the enrich policy
     enrich_policy = {
         "match": {
             "indices": cli_get("enrichment.es.index"),
             "match_field": cli_get("enrichment.match_field"),
-            "enrich_fields": ["additional_id"],
+            "enrich_fields": ["_id"],
         }
     }
 
     # Create and execute the enrich policy
-    es.enrich.put_policy(name="add_ids_policy", body=enrich_policy)
-    es.enrich.execute_policy(name="add_ids_policy")
+    es.enrich.put_policy(name="add_oc_ids_policy", body=enrich_policy)
+    es.enrich.execute_policy(name="add_oc_ids_policy")
 
     # Define the enrich processor
     enrich_processor = {
-        "description": "Enrich GLEIF data with additional IDs",
+        "description": "Add OpenCorporates ID to the document",
         "processors": [
             {
                 "enrich": {
-                    "policy_name": "add_ids_policy",
-                    "field": "LEI",
-                    "target_field": "enriched_data",
+                    "policy_name": "add_oc_ids_policy",
+                    "field": cli_get("enrichment.match_field"),
+                    "target_field": "opencorporates_id",
                     "max_matches": "1",
                 }
             }
@@ -28,9 +31,36 @@ def setup_enrichment(es):
     }
 
     # Create the ingest pipeline with the enrich processor
-    es.ingest.put_pipeline(id="enrich_pipeline", body=enrich_processor)
+    es.ingest.put_pipeline(id="enrich_pipeline_oc_id", body=enrich_processor)
 
 
-def create_ingest_pipeline(es):
+def setup_enrichment_national_ids(es):
+    enrich_policy = {
+        "match": {
+            "indices": cli_get("enrichment.es.index"),
+            "match_field": cli_get("enrichment.match_field"),
+            "enrich_fields": ["_source.uid", "_source.jurisdiction_code"],
+        }
+    }
+
+    # Create and execute the enrich policy
+    es.enrich.put_policy(name="add_national_ids_policy", body=enrich_policy)
+    es.enrich.execute_policy(name="add_national_ids_policy")
+
+    # Define the enrich processor
+    enrich_processor = {
+        "description": "Add OpenCorporates ID to the document",
+        "processors": [
+            {
+                "enrich": {
+                    "policy_name": "add_national_ids_policy",
+                    "field": cli_get("enrichment.match_field"),
+                    "target_field": "national_id",
+                    "max_matches": "1",
+                }
+            }
+        ],
+    }
+
     # Create the ingest pipeline with the enrich processor
-    es.ingest.put_pipeline(id="enrich_pipeline", body=enrich_processor)
+    es.ingest.put_pipeline(id="enrich_pipeline_national_id", body=enrich_processor)

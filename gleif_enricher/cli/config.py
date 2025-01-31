@@ -2,6 +2,8 @@ import click
 import yaml
 from typing import Any, Dict, List, Optional
 
+DEFAULT_CONFIG = "config.yaml"
+
 
 def read_config(config_path: str) -> Dict[str, Any]:
     with open(config_path, "r") as file:
@@ -34,17 +36,22 @@ def set_nested(
     print(config_data)
 
 
-@click.command()
-@click.option("--config", default="config.yaml", help="Path to the config file")
-@click.argument("key")
-def get(config: str, key: str or None = None) -> None:
+def get_value(config: str = DEFAULT_CONFIG, key: str = "") -> Optional[str]:
     config_data = read_config(config)
     keys = key.split(".")
-    value = get_nested(config_data, keys)
+    return get_nested(config_data, keys) or None
+
+
+@click.command()
+@click.option("--config", default=DEFAULT_CONFIG, help="Path to the config file")
+@click.argument("key")
+def get(config: str, key: str or None = None) -> str:
+    value = get_value(config, key)
     if value is not None:
         click.echo(f"{key}: {value}")
     else:
         click.echo(f"{key} not found in the configuration")
+    return value
 
 
 @click.command()
