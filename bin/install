@@ -4,10 +4,10 @@
 set -e
 
 # Check dependencies
-if ! command -v poetry &> /dev/null; then
-    echo "Poetry is not installed. Please install Poetry and try again."
+if ! command -v uv &> /dev/null; then
+    echo "uv is not installed. Please install uv and try again."
     exit 1
 fi
 
-# Install the CLI via poetry
-poetry install
+# Install the CLI via uv
+uv sync --frozen

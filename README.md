@@ -21,10 +21,10 @@ Relevant documentation:
 
 ## Installation
 
-This tool is written in Python, and can be installed using poetry:
+This tool is written in Python, and can be installed using `uv`:
 
 ```bash
-poetry install
+uv sync
 ```
 
 Alternatively, you may use the bundled shell script:
@@ -38,7 +38,7 @@ Alternatively, you may use the bundled shell script:
 The tool can be run using the following command:
 
 ```bash
-poetry run gleif-enricher
+uv run gleif-enricher
 ```
 
 The tool will look for a configuration file in the current directory, named
@@ -50,19 +50,19 @@ The tool will look for a configuration file in the current directory, named
 
 ```bash
 # get: retrieve a value from the configuration file
-poetry run python -m gleif_enricher config get <key>
+uv run python -m gleif_enricher config get <key>
 # Example:
-poetry run python -m gleif_enricher config get source.index
+uv run python -m gleif_enricher config get source.index
 
 # set: set a value in the configuration file
-poetry run python -m gleif_enricher config set <key> <value>
+uv run python -m gleif_enricher config set <key> <value>
 # Example:
-poetry run python -m gleif_enricher config set source.index gleif_index_name
+uv run python -m gleif_enricher config set source.index gleif_index_name
 
 # set: remove a key from the configuration file
-poetry run python -m gleif_enricher config set <key>
+uv run python -m gleif_enricher config set <key>
 # Example:
-poetry run python -m gleif_enricher config set source.index
+uv run python -m gleif_enricher config set source.index
 ```
 
 ### `enrich`
@@ -70,10 +70,10 @@ poetry run python -m gleif_enricher config set source.index
 
 ```bash
 # setup: set up the enrichment processor(s) configured
-poetry run python -m gleif_enricher enrich setup
+uv run python -m gleif_enricher enrich setup
 
 # start: start the enrichment process.
-poetry run python -m gleif_enricher enrich start
+uv run python -m gleif_enricher enrich start
 ```
 
 ## Docker
@@ -101,19 +101,19 @@ docker-compose run --rm enricher enrich start
 To run the tests, use the following command:
 
 ```bash
-poetry run pytest
+uv run pytest
 ```
 
 To run the linter, use the following command:
 
 ```bash
-poetry run flake8
+uv run flake8
 ```
 
 To run the formatter, use the following command:
 
 ```bash
-poetry run black .
+uv run black .
 ```
 
 # License

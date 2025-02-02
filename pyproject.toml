@@ -1,28 +1,32 @@
-[tool.poetry]
-name = "gleif_enricher"
-version = "0.1.0"
-description = "Enrichment tool for GLEIF data"
-authors = ["Open Ownership <info@openownership.org>"]
-license = "AGPL-3.0"
-packages = [
-    { include = "gleif_enricher" }
-]
-
-[tool.poetry.dependencies]
-python = "^3.11"
-click = "^8.1.8"
-elasticsearch = "^8.17.1"
-requests = "^2.32.3"
-boto3 = "^1.36.5"
-pyyaml = "^6.0.2"
-
-[tool.poetry.group.dev.dependencies]
-black = "^25.1.0"
-flake8 = "^7.1.1"
-
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
 
 [tool.poetry.scripts]
 gleif-enricher = "gleif_enricher.cli:main"
+
+[project]
+authors = [
+    {name = "Open Ownership", email = "info@openownership.org"},
+]
+license = {text = "AGPL-3.0"}
+requires-python = "<4.0,>=3.11"
+dependencies = [
+    "click<9.0.0,>=8.1.8",
+    "elasticsearch<9.0.0,>=8.17.1",
+    "requests<3.0.0,>=2.32.3",
+    "boto3<2.0.0,>=1.36.5",
+    "pyyaml<7.0.0,>=6.0.2",
+]
+name = "gleif_enricher"
+version = "0.1.0"
+description = "Enrichment tool for GLEIF data"
+
+[project.scripts]
+gleif-enricher = "gleif_enricher.cli:main"
+
+[dependency-groups]
+dev = [
+    "black<26.0.0,>=25.1.0",
+    "flake8<8.0.0,>=7.1.1",
+]
