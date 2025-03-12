@@ -2,9 +2,6 @@
 requires = ["pdm-backend"]
 build-backend = "pdm.backend"
 
-[tool.poetry.scripts]
-gleif-enricher = "gleif_enricher.cli:main"
-
 [project]
 authors = [
     {name = "Open Ownership", email = "info@openownership.org"},
@@ -18,12 +15,12 @@ dependencies = [
     "boto3<2.0.0,>=1.36.5",
     "pyyaml<7.0.0,>=6.0.2",
 ]
-name = "gleif_enricher"
+name = "enricher"
 version = "0.1.0"
 description = "Enrichment tool for GLEIF data"
 
 [project.scripts]
-gleif-enricher = "gleif_enricher.cli:main"
+enricher = "enricher.cli:main"
 
 [dependency-groups]
 dev = [

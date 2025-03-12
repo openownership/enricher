@@ -1,6 +1,6 @@
 import click
-from gleif_enricher.cli.config import get, set
-from gleif_enricher.cli.enrich import start, setup
+from enricher.cli.config import get, set
+from enricher.cli.enrich import start, setup
 
 
 @click.group()

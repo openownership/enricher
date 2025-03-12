@@ -1,4 +1,4 @@
-from gleif_enricher.cli.config import get_value as cli_get
+from enricher.cli.config import get_value as cli_get
 
 
 def setup_enrichment_oc_id(es):

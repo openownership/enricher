@@ -1,12 +1,15 @@
 import click
 from elasticsearch import Elasticsearch
-from gleif_enricher.elasticsearch import (
+from enricher.elasticsearch import (
     setup_enrichment_oc_id,
     setup_enrichment_national_ids,
 )
-from gleif_enricher.cli.config import get_value as cli_get
+from enricher.cli.config import get_value as cli_get
 
-es = Elasticsearch(hosts=[cli_get(key="source.es.host")])
+es = Elasticsearch(
+    hosts=[cli_get(key="source.es.host")],
+    headers={"Content-Type": "application/json"},
+)
 
 
 @click.command()
