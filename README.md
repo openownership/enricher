@@ -78,6 +78,21 @@ uv run python -m enricher enrich setup
 uv run python -m enricher enrich start
 ```
 
+## Configuration
+
+This utility is configured via a YAML file, named `config.yaml` by default.
+
+The configuration file should contain the following keys:
+
+- `source.index`: the name of the Elasticsearch index containing the data to be enriched.
+- `source.es.host`: the full URI of the Elasticsearch instance.
+- `source.match_field`: field that will be used to match the documents in the source index with the documents in the enrich index.
+- `source.replace`: whether to replace the source index, or to create a new index with the enriched data.
+- `enrichment.es.index`: the name of the Elasticsearch index containing the enrichment data.
+- `enrichment.match_field`: field that will be used to match the documents in the source index with the documents in the enrich index.
+
+
+
 ## Docker
 
 This tool can be run using Docker and Docker Compose.
