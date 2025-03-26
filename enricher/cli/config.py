@@ -16,11 +16,14 @@ def write_config(config_path: str, config_data: Dict[str, Any]) -> None:
 
 
 def get_nested(config_data: Dict[str, Any], keys: List[str]) -> Optional[str]:
+    value: Dict | str | None = config_data
     for key in keys:
-        config_data = config_data.get(key, None)
-        if config_data is None:
+        if value is None:
             return None
-    return config_data
+        if not isinstance(value, dict):
+            return value
+        value = value.get(key, None)
+    return value
 
 
 def set_nested(
@@ -36,8 +39,10 @@ def set_nested(
     print(config_data)
 
 
-def get_value(config: str = DEFAULT_CONFIG, key: str = "") -> Optional[str]:
+def get_value(config: str = DEFAULT_CONFIG, key: str | None = "") -> Optional[str]:
     config_data = read_config(config)
+    if key is None:
+        return None
     keys = key.split(".")
     return get_nested(config_data, keys) or None
 
@@ -45,7 +50,7 @@ def get_value(config: str = DEFAULT_CONFIG, key: str = "") -> Optional[str]:
 @click.command()
 @click.option("--config", default=DEFAULT_CONFIG, help="Path to the config file")
 @click.argument("key")
-def get(config: str, key: str or None = None) -> str:
+def get(config: str, key: str | None = None) -> str | None:
     value = get_value(config, key)
     if value is not None:
         click.echo(f"{key}: {value}")
@@ -58,7 +63,7 @@ def get(config: str, key: str or None = None) -> str:
 @click.option("--config", default="config.yaml", help="Path to the config file")
 @click.argument("key")
 @click.argument("value", required=False)
-def set(config: str, key: str, value: str or None = None) -> None:
+def set(config: str, key: str, value: str | None = None) -> None:
     config_data = read_config(config)
     keys = key.split(".")
     set_nested(config_data, keys, value)
@@ -67,3 +72,16 @@ def set(config: str, key: str, value: str or None = None) -> None:
         click.echo(f"Removed {key} from the configuration")
     else:
         click.echo(f"Set {key} to {value} in the configuration")
+
+
+@click.command()
+@click.option("--config", default="config.yaml", help="Path to the config file")
+def validate(config: str) -> bool:
+    required_keys = ["source", "enrichment", "source.es.index"]
+    for key in required_keys:
+        if not get_value(config, key):
+            click.echo("Configuration is invalid.")
+            return False
+    click.echo("Configuration is valid.")
+    return True
+

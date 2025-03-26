@@ -1,12 +1,12 @@
-from enricher.cli.config import get_value as cli_get
+from enricher.cli.config import get_value as get_config_value
 
 
 def setup_enrichment_oc_id(es):
     # Define the enrich policy
     enrich_policy = {
         "match": {
-            "indices": cli_get(key="enrichment.es.index"),
-            "match_field": cli_get(key="enrichment.match_field"),
+            "indices": get_config_value(key="enrichment.es.index"),
+            "match_field": get_config_value(key="enrichment.match_field"),
             "enrich_fields": ["_id"],
         }
     }
@@ -25,7 +25,7 @@ def setup_enrichment_oc_id(es):
             {
                 "enrich": {
                     "policy_name": "add_oc_ids_policy",
-                    "field": cli_get(key="enrichment.match_field"),
+                    "field": get_config_value(key="enrichment.match_field"),
                     "target_field": "opencorporates_id",
                     "max_matches": "1",
                 }
@@ -57,7 +57,7 @@ def setup_enrichment_national_ids(es):
             {
                 "enrich": {
                     "policy_name": "add_national_ids_policy",
-                    "field": cli_get(key="enrichment.match_field"),
+                    "field": get_config_value(key="enrichment.match_field"),
                     "target_field": "national_id",
                     "max_matches": "1",
                 }

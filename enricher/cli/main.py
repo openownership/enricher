@@ -1,5 +1,5 @@
 import click
-from enricher.cli.config import get, set
+from enricher.cli.config import get, set, validate
 from enricher.cli.enrich import start, setup
 
 
@@ -20,6 +20,7 @@ def enrich():
 
 config.add_command(get)
 config.add_command(set)
+config.add_command(validate)
 
 enrich.add_command(setup)
 enrich.add_command(start)
