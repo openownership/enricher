@@ -4,10 +4,11 @@ services:
     container_name: elasticsearch
     environment:
       - discovery.type=single-node
+      - xpack.security.enabled=false
     volumes:
       - esdata:/usr/share/elasticsearch/data
-    expose:
-      - 9200
+    ports:
+      - "9200:9200"
 
   enricher:
     build: .
@@ -18,7 +19,7 @@ services:
       - ./config.yaml:/app/config.yaml
     env_file:
       - .env
-    entrypoint: ["poetry", "run", "gleif-enricher"]
+    entrypoint: ["uv", "run", "enricher"]
 
 volumes:
   esdata:

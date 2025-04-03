@@ -1,8 +1,22 @@
 import click
 import yaml
 from typing import Any, Dict, List, Optional
+from collections import namedtuple
 
 DEFAULT_CONFIG = "config.yaml"
+
+
+def convert_to_namedtuple(data):
+    """
+    Convert a (nested) dictionary to a namedtuple.
+    :param data: dictionary to convert
+    :return: namedtuple
+    """
+    if isinstance(data, dict):
+        for key, value in data.items():
+            data[key] = convert_to_namedtuple(value)
+        return namedtuple('Data', data.keys())(**data)
+    return data
 
 
 def read_config(config_path: str) -> Dict[str, Any]:

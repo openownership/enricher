@@ -1,653 +1,1888 @@
 [
-  {
-    "LEI": "00TR8NKAEL48RGTZEW89",
-    "AdditionalIDs": [],
-    "Entity": {
-      "LegalName": "ESG DOMESTIC OPPORTUNITY OFFSHORE FUND LTD.",
-      "LegalAddress": {
-        "FirstAddressLine": "89 Nexus Way",
-        "City": "Camana Bay",
-        "Country": "KY",
-        "PostalCode": "KY1-9009"
-      },
-      "HeadquartersAddress": {
-        "FirstAddressLine": "C/O Citco Fund Services (Curacao) B.V.",
-        "AdditionalAddressLine": "Kaya Flamboyan 9",
-        "City": "Willemstad",
-        "Country": "CW"
-      },
-      "RegistrationAuthority": {
-        "RegistrationAuthorityID": "RA000087",
-        "RegistrationAuthorityEntityID": "574206"
-      },
-      "LegalJurisdiction": "KY",
-      "EntityCategory": "GENERAL",
-      "LegalForm": {
-        "EntityLegalFormCode": "9999",
-        "OtherLegalForm": "CAYMAN ISLANDS ORDINARY NON-RESIDENT COMPANY"
-      },
-      "EntityStatus": "ACTIVE"
-    },
-    "Registration": {
-      "InitialRegistrationDate": "2012-08-24T20:53:00.000+02:00",
-      "LastUpdateDate": "2023-08-03T08:48:03.080+02:00",
-      "RegistrationStatus": "ISSUED",
-      "NextRenewalDate": "2019-02-14T01:32:00.000+01:00",
-      "ManagingLOU": "39120001KULK7200U106",
-      "ValidationSources": "FULLY_CORROBORATED",
-      "ValidationAuthority": {
-        "ValidationAuthorityID": "RA000087",
-        "ValidationAuthorityEntityID": "574206"
-      }
-    }
-  },
-  {
-    "LEI": "097900BHF50000076475",
-    "AdditionalIDs": [
-      {
-        "ID": "35903058",
-        "Type": "national",
-        "JurisdictionCode": "sk"
-      }
-    ],
-    "Entity": {
-      "LegalName": "VÚB Generali dôchodková správcovská spoločnosť, a.s.",
-      "TransliteratedOtherEntityNames": [
-        {
-          "type": "AUTO_ASCII_TRANSLITERATED_LEGAL_NAME",
-          "TransliteratedOtherEntityName": "VUB GENERALI DOCHODKOVA SPRAVCOVSKA SPOLOCNOST, AS"
-        }
-      ],
-      "LegalAddress": {
-        "FirstAddressLine": "Mlynské nivy 1",
-        "City": "Bratislava",
-        "Country": "SK",
-        "PostalCode": "820 04"
-      },
-      "HeadquartersAddress": {
-        "FirstAddressLine": "Mlynské nivy 1",
-        "City": "Bratislava",
-        "Country": "SK",
-        "PostalCode": "820 04"
-      },
-      "RegistrationAuthority": {
-        "RegistrationAuthorityID": "RA000526",
-        "RegistrationAuthorityEntityID": "35903058"
-      },
-      "LegalJurisdiction": "SK",
-      "EntityCategory": "GENERAL",
-      "LegalForm": {
-        "EntityLegalFormCode": "2EEG"
-      },
-      "EntityStatus": "ACTIVE",
-      "EntityCreationDate": "2004-10-09T08:00:00+02:00"
-    },
-    "Registration": {
-      "InitialRegistrationDate": "2017-05-30T00:00:00+02:00",
-      "LastUpdateDate": "2023-05-25T08:30:56.059+02:00",
-      "RegistrationStatus": "ISSUED",
-      "NextRenewalDate": "2024-05-30T00:00:00+02:00",
-      "ManagingLOU": "097900BEFH0000000217",
-      "ValidationSources": "FULLY_CORROBORATED",
-      "ValidationAuthority": {
-        "ValidationAuthorityID": "RA000526",
-        "ValidationAuthorityEntityID": "35903058"
-      }
-    }
-  },
-  {
-    "LEI": "097900BEJX0000002337",
-    "AdditionalIDs": [],
-    "Entity": {
-      "LegalName": "SMART, zelený inovatívny negarantovaný dôchodkový fond VÚB Generali dôchodková správcovská spoločnosť, a.s.",
-      "OtherEntityNames": [
-        {
-          "type": "PREVIOUS_LEGAL_NAME",
-          "OtherEntityName": "MIX, zmiešaný negarantovaný dôchodkový fond VÚB Generali d.s.s., a.s."
-        }
-      ],
-      "TransliteratedOtherEntityNames": [
-        {
-          "type": "PREFERRED_ASCII_TRANSLITERATED_LEGAL_NAME",
-          "TransliteratedOtherEntityName": "SMART, zeleny inovativny negarantovany dochodkovy fond VUB Generali dochodkova spravcovska spolocnost, a.s."
-        }
-      ],
-      "LegalAddress": {
-        "FirstAddressLine": "Mlynské nivy 1",
-        "City": "Bratislava",
-        "Country": "SK",
-        "PostalCode": "820 04"
-      },
-      "HeadquartersAddress": {
-        "FirstAddressLine": "c/o VÚB Generali dôchodková správcovská spoločnosť, a.s.",
-        "AdditionalAddressLine": "Mlynské nivy 1",
-        "City": "Bratislava",
-        "Country": "SK",
-        "PostalCode": "820 04"
-      },
-      "RegistrationAuthority": {
-        "RegistrationAuthorityID": "RA000706",
-        "RegistrationAuthorityEntityID": "SK35903058VUB04"
-      },
-      "LegalJurisdiction": "SK",
-      "EntityCategory": "FUND",
-      "LegalForm": {
-        "EntityLegalFormCode": "7EG2"
-      },
-      "EntityStatus": "ACTIVE",
-      "EntityCreationDate": "2005-03-23T08:00:00+01:00"
-    },
-    "Registration": {
-      "InitialRegistrationDate": "2014-09-23T00:00:00+02:00",
-      "LastUpdateDate": "2023-08-17T08:31:04.159+02:00",
-      "RegistrationStatus": "ISSUED",
-      "NextRenewalDate": "2024-09-26T00:00:00+02:00",
-      "ManagingLOU": "097900BEFH0000000217",
-      "ValidationSources": "FULLY_CORROBORATED",
-      "ValidationAuthority": {
-        "ValidationAuthorityID": "RA000706",
-        "ValidationAuthorityEntityID": "SK35903058VUB04"
-      }
-    }
-  },
-  {
-    "LEI": "097900BEJX0000002143",
-    "AdditionalIDs": [],
-    "Entity": {
-      "LegalName": "INDEX, indexový negarantovaný dôchodkový fond VUB Generali d.s.s., a.s.",
-      "TransliteratedOtherEntityNames": [
-        {
-          "type": "AUTO_ASCII_TRANSLITERATED_LEGAL_NAME",
-          "TransliteratedOtherEntityName": "INDEX, INDEXOVY NEGARANTOVANY DOCHODKOVY FOND VUB GENERALI DSS, AS"
-        }
-      ],
-      "LegalAddress": {
-        "FirstAddressLine": "Mlynské nivy 1",
-        "City": "Bratislava",
-        "Country": "SK",
-        "PostalCode": "820 04"
-      },
-      "HeadquartersAddress": {
-        "FirstAddressLine": "c/o VÚB Generali dôchodková správcovská spoločnosť, a.s.",
-        "AdditionalAddressLine": "Mlynské nivy 1",
-        "City": "Bratislava",
-        "Country": "SK",
-        "PostalCode": "820 04"
-      },
-      "RegistrationAuthority": {
-        "RegistrationAuthorityID": "RA000706",
-        "RegistrationAuthorityEntityID": "SK35903058VUB01"
-      },
-      "LegalJurisdiction": "SK",
-      "EntityCategory": "FUND",
-      "LegalForm": {
-        "EntityLegalFormCode": "7EG2"
-      },
-      "EntityStatus": "ACTIVE",
-      "EntityCreationDate": "2012-04-02T08:00:00+02:00"
-    },
-    "Registration": {
-      "InitialRegistrationDate": "2014-09-23T00:00:00+02:00",
-      "LastUpdateDate": "2023-08-17T08:31:02.482+02:00",
-      "RegistrationStatus": "ISSUED",
-      "NextRenewalDate": "2024-09-26T00:00:00+02:00",
-      "ManagingLOU": "097900BEFH0000000217",
-      "ValidationSources": "FULLY_CORROBORATED",
-      "ValidationAuthority": {
-        "ValidationAuthorityID": "RA000706",
-        "ValidationAuthorityEntityID": "SK35903058VUB01"
-      }
-    }
-  },
-  {
-    "LEI": "097900BEJX0000002240",
-    "AdditionalIDs": [],
-    "Entity": {
-      "LegalName": "KLASIK, dlhopisový garantovaný dôchodkový fond VÚB Generali d.s.s., a.s.",
-      "TransliteratedOtherEntityNames": [
-        {
-          "type": "AUTO_ASCII_TRANSLITERATED_LEGAL_NAME",
-          "TransliteratedOtherEntityName": "KLASIK, DLHOPISOVY GARANTOVANY DOCHODKOVY FOND VUB GENERALI DSS, AS"
-        }
-      ],
-      "LegalAddress": {
-        "FirstAddressLine": "Mlynské nivy 1",
-        "City": "Bratislava",
-        "Country": "SK",
-        "PostalCode": "820 04"
-      },
-      "HeadquartersAddress": {
-        "FirstAddressLine": "c/o VÚB Generali dôchodková správcovská spoločnosť, a.s.",
-        "AdditionalAddressLine": "Mlynské nivy 1",
-        "City": "Bratislava",
-        "Country": "SK",
-        "PostalCode": "820 04"
-      },
-      "RegistrationAuthority": {
-        "RegistrationAuthorityID": "RA000706",
-        "RegistrationAuthorityEntityID": "SK35903058VUB02"
-      },
-      "LegalJurisdiction": "SK",
-      "EntityCategory": "FUND",
-      "LegalForm": {
-        "EntityLegalFormCode": "7EG2"
-      },
-      "EntityStatus": "ACTIVE",
-      "EntityCreationDate": "2005-03-22T08:00:00+01:00"
-    },
-    "Registration": {
-      "InitialRegistrationDate": "2014-09-23T00:00:00+02:00",
-      "LastUpdateDate": "2023-08-17T08:31:03.502+02:00",
-      "RegistrationStatus": "ISSUED",
-      "NextRenewalDate": "2024-09-26T00:00:00+02:00",
-      "ManagingLOU": "097900BEFH0000000217",
-      "ValidationSources": "FULLY_CORROBORATED",
-      "ValidationAuthority": {
-        "ValidationAuthorityID": "RA000706",
-        "ValidationAuthorityEntityID": "SK35903058VUB02"
-      }
-    }
-  },
-  {
-    "LEI": "097900BEJX0000002434",
-    "AdditionalIDs": [],
-    "Entity": {
-      "LegalName": "PROFIT, akciový negarantovaný dôchodkový fond VÚB Generali d.s.s., a.s.",
-      "TransliteratedOtherEntityNames": [
-        {
-          "type": "AUTO_ASCII_TRANSLITERATED_LEGAL_NAME",
-          "TransliteratedOtherEntityName": "PROFIT, AKCIOVY NEGARANTOVANY DOCHODKOVY FOND VUB GENERALI DSS, AS"
-        }
-      ],
-      "LegalAddress": {
-        "FirstAddressLine": "Mlynské nivy 1",
-        "City": "Bratislava",
-        "Country": "SK",
-        "PostalCode": "820 04"
-      },
-      "HeadquartersAddress": {
-        "FirstAddressLine": "c/o VÚB Generali dôchodková správcovská spoločnosť, a.s.",
-        "AdditionalAddressLine": "Mlynské nivy 1",
-        "City": "Bratislava",
-        "Country": "SK",
-        "PostalCode": "820 04"
-      },
-      "RegistrationAuthority": {
-        "RegistrationAuthorityID": "RA000706",
-        "RegistrationAuthorityEntityID": "SK35903058VUB03"
-      },
-      "LegalJurisdiction": "SK",
-      "EntityCategory": "FUND",
-      "LegalForm": {
-        "EntityLegalFormCode": "7EG2"
-      },
-      "EntityStatus": "ACTIVE",
-      "EntityCreationDate": "2005-03-22T08:00:00+01:00"
-    },
-    "Registration": {
-      "InitialRegistrationDate": "2014-09-23T00:00:00+02:00",
-      "LastUpdateDate": "2023-08-17T08:31:04.659+02:00",
-      "RegistrationStatus": "ISSUED",
-      "NextRenewalDate": "2024-09-26T00:00:00+02:00",
-      "ManagingLOU": "097900BEFH0000000217",
-      "ValidationSources": "FULLY_CORROBORATED",
-      "ValidationAuthority": {
-        "ValidationAuthorityID": "RA000706",
-        "ValidationAuthorityEntityID": "SK35903058VUB03"
-      }
-    }
-  },
-  {
-    "LEI": "549300JB1P61FUTPEZ75",
-    "AdditionalIDs": [
-      {
-        "ID": "31320155",
-        "Type": "national",
-        "JurisdictionCode": "sk"
-      }
-    ],
-    "Entity": {
-      "LegalName": "Všeobecná úverová banka, a.s.",
-      "TransliteratedOtherEntityNames": [
-        {
-          "type": "AUTO_ASCII_TRANSLITERATED_LEGAL_NAME",
-          "TransliteratedOtherEntityName": "Vseobecna uverova banka, as"
-        }
-      ],
-      "LegalAddress": {
-        "FirstAddressLine": "Mlynské nivy 1",
-        "City": "Bratislava",
-        "Country": "SK",
-        "PostalCode": "829 90"
-      },
-      "HeadquartersAddress": {
-        "FirstAddressLine": "Mlynské nivy 1",
-        "City": "Bratislava",
-        "Country": "SK",
-        "PostalCode": "829 90"
-      },
-      "RegistrationAuthority": {
-        "RegistrationAuthorityID": "RA000526",
-        "RegistrationAuthorityEntityID": "31320155"
-      },
-      "LegalJurisdiction": "SK",
-      "EntityCategory": "GENERAL",
-      "LegalForm": {
-        "EntityLegalFormCode": "2EEG"
-      },
-      "EntityStatus": "ACTIVE",
-      "EntityCreationDate": "1992-04-01T08:00:00+02:00"
-    },
-    "Registration": {
-      "InitialRegistrationDate": "2013-10-02T00:00:00+02:00",
-      "LastUpdateDate": "2023-09-12T08:30:46.285+02:00",
-      "RegistrationStatus": "ISSUED",
-      "NextRenewalDate": "2024-10-03T00:00:00+02:00",
-      "ManagingLOU": "097900BEFH0000000217",
-      "ValidationSources": "FULLY_CORROBORATED",
-      "ValidationAuthority": {
-        "ValidationAuthorityID": "RA000526",
-        "ValidationAuthorityEntityID": "31320155"
-      }
-    }
-  },
-  {
-    "LEI": "097900BJGO0000201513",
-    "AdditionalIDs": [
-      {
-        "ID": "52143058",
-        "Type": "national",
-        "JurisdictionCode": "sk"
-      }
-    ],
-    "Entity": {
-      "LegalName": "Aquila Real Asset Finance III a. s. v likvidácii",
-      "TransliteratedOtherEntityNames": [
-        {
-          "type": "AUTO_ASCII_TRANSLITERATED_LEGAL_NAME",
-          "TransliteratedOtherEntityName": "AQUILA REAL ASSET FINANCE III A S V LIKVIDACII"
-        }
-      ],
-      "LegalAddress": {
-        "FirstAddressLine": "Dúbravská cesta 14",
-        "City": "Bratislava - mestská časť Karlova Ves",
-        "Country": "SK",
-        "PostalCode": "841 04"
-      },
-      "HeadquartersAddress": {
-        "FirstAddressLine": "Dúbravská cesta 14",
-        "City": "Bratislava - mestská časť Karlova Ves",
-        "Country": "SK",
-        "PostalCode": "841 04"
-      },
-      "RegistrationAuthority": {
-        "RegistrationAuthorityID": "RA000526",
-        "RegistrationAuthorityEntityID": "52143058"
-      },
-      "LegalJurisdiction": "SK",
-      "EntityCategory": "GENERAL",
-      "LegalForm": {
-        "EntityLegalFormCode": "2EEG"
-      },
-      "EntityStatus": "ACTIVE",
-      "EntityCreationDate": "2019-02-02T08:00:00+01:00",
-      "LegalEntityEvents": [
-        {
-          "LegalEntityEventType": "LIQUIDATION",
-          "LegalEntityEventEffectiveDate": "2023-04-13T08:00:00+02:00",
-          "LegalEntityEventRecordedDate": "2023-09-27T12:34:16.118+02:00",
-          "ValidationDocuments": "SUPPORTING_DOCUMENTS",
-          "AffectedFields": [
-            "Aquila Real Asset Finance III a. s. v likvidácii"
-          ]
-        }
-      ]
-    },
-    "Registration": {
-      "InitialRegistrationDate": "2019-06-14T00:00:00+02:00",
-      "LastUpdateDate": "2023-09-27T12:34:16.118+02:00",
-      "RegistrationStatus": "LAPSED",
-      "NextRenewalDate": "2023-06-18T00:00:00+02:00",
-      "ManagingLOU": "097900BEFH0000000217",
-      "ValidationSources": "FULLY_CORROBORATED",
-      "ValidationAuthority": {
-        "ValidationAuthorityID": "RA000526",
-        "ValidationAuthorityEntityID": "52143058"
-      }
-    }
-  },
-  {
-    "LEI": "9845002B9874D50A4531",
-    "AdditionalIDs": [],
-    "Entity": {
-      "LegalName": "Corporate Business Solutions Partners S.à r.l.",
-      "LegalAddress": {
-        "FirstAddressLine": "23 Am Scheerleck",
-        "City": "Wecker",
-        "Country": "LU",
-        "PostalCode": "6868"
-      },
-      "HeadquartersAddress": {
-        "FirstAddressLine": "23 Am Scheerleck",
-        "City": "Wecker",
-        "Country": "LU",
-        "PostalCode": "6868"
-      },
-      "RegistrationAuthority": {
-        "RegistrationAuthorityID": "RA000432",
-        "RegistrationAuthorityEntityID": "B191847"
-      },
-      "LegalJurisdiction": "LU",
-      "EntityCategory": "GENERAL",
-      "LegalForm": {
-        "EntityLegalFormCode": "DVXS"
-      },
-      "EntityStatus": "ACTIVE",
-      "EntityCreationDate": "2014-11-17T00:00:00+00:00"
-    },
-    "Registration": {
-      "InitialRegistrationDate": "2020-03-17T08:22:48+00:00",
-      "LastUpdateDate": "2023-01-25T09:13:32+00:00",
-      "RegistrationStatus": "ISSUED",
-      "NextRenewalDate": "2024-03-16T08:36:11+00:00",
-      "ManagingLOU": "529900T8BM49AURSDO55",
-      "ValidationSources": "FULLY_CORROBORATED",
-      "ValidationAuthority": {
-        "ValidationAuthorityID": "RA000432",
-        "ValidationAuthorityEntityID": "B191847"
-      }
-    }
-  },
-  {
-    "LEI": "2138002YAB7Z9KO21397",
-    "AdditionalIDs": [],
-    "Entity": {
-      "LegalName": "MONOOVA GLOBAL PAYMENTS PTY LTD",
-      "OtherEntityNames": [
-        {
-          "type": "PREVIOUS_LEGAL_NAME",
-          "OtherEntityName": "MONOOVA GLOBAL PAYMENTS LIMITED"
-        },
-        {
-          "type": "PREVIOUS_LEGAL_NAME",
-          "OtherEntityName": "MONEYTECH LIMITED"
-        },
-        {
-          "type": "PREVIOUS_LEGAL_NAME",
-          "OtherEntityName": "SQUADRON FINANCIAL SERVICES LIMITED"
-        }
-      ],
-      "LegalAddress": {
-        "FirstAddressLine": "UNIT L7",
-        "AdditionalAddressLine": "80 PACIFIC HIGHWAY",
-        "City": "NORTH SYDNEY",
-        "Region": "AU-NSW",
-        "Country": "AU",
-        "PostalCode": "2060"
-      },
-      "HeadquartersAddress": {
-        "FirstAddressLine": "'L7'",
-        "AdditionalAddressLine": "80 PACIFIC HIGHWAY",
-        "City": "NORTH SYDNEY",
-        "Region": "AU-NSW",
-        "Country": "AU",
-        "PostalCode": "2060"
-      },
-      "RegistrationAuthority": {
-        "RegistrationAuthorityID": "RA000014",
-        "RegistrationAuthorityEntityID": "106 249 852"
-      },
-      "LegalJurisdiction": "AU",
-      "EntityCategory": "GENERAL",
-      "LegalForm": {
-        "EntityLegalFormCode": "TXVC"
-      },
-      "EntityStatus": "ACTIVE",
-      "EntityCreationDate": "2003-09-09T00:00:00+00:00",
-      "LegalEntityEvents": [
-        {
-          "LegalEntityEventType": "CHANGE_LEGAL_FORM",
-          "LegalEntityEventEffectiveDate": "2022-09-16T00:00:00+00:00",
-          "LegalEntityEventRecordedDate": "2023-01-11T09:59:14+00:00",
-          "ValidationDocuments": "SUPPORTING_DOCUMENTS"
-        },
-        {
-          "LegalEntityEventType": "CHANGE_LEGAL_NAME",
-          "LegalEntityEventEffectiveDate": "2022-09-16T00:00:00+00:00",
-          "LegalEntityEventRecordedDate": "2023-01-11T09:59:14+00:00",
-          "ValidationDocuments": "SUPPORTING_DOCUMENTS"
-        }
-      ]
-    },
-    "Registration": {
-      "InitialRegistrationDate": "2019-01-14T00:00:00+00:00",
-      "LastUpdateDate": "2023-01-11T11:21:01+00:00",
-      "RegistrationStatus": "ISSUED",
-      "NextRenewalDate": "2024-01-13T00:00:00+00:00",
-      "ManagingLOU": "529900T8BM49AURSDO55",
-      "ValidationSources": "FULLY_CORROBORATED",
-      "ValidationAuthority": {
-        "ValidationAuthorityID": "RA000014",
-        "ValidationAuthorityEntityID": "106 249 852"
-      }
-    }
-  },
-  {
-    "LEI": "984500501A1B1045PB30",
-    "AdditionalIDs": [],
-    "Entity": {
-      "LegalName": "MONEYTECH GROUP LIMITED",
-      "LegalAddress": {
-        "FirstAddressLine": "'L7'",
-        "AdditionalAddressLine": "80 PACIFIC HIGHWAY",
-        "City": "NORTH SYDNEY",
-        "Region": "AU-NSW",
-        "Country": "AU",
-        "PostalCode": "2060"
-      },
-      "HeadquartersAddress": {
-        "FirstAddressLine": "'L7'",
-        "AdditionalAddressLine": "80 PACIFIC HIGHWAY",
-        "City": "NORTH SYDNEY",
-        "Region": "AU-NSW",
-        "Country": "AU",
-        "PostalCode": "2060"
-      },
-      "RegistrationAuthority": {
-        "RegistrationAuthorityID": "RA000014",
-        "RegistrationAuthorityEntityID": "611 393 554"
-      },
-      "LegalJurisdiction": "AU",
-      "EntityCategory": "GENERAL",
-      "LegalForm": {
-        "EntityLegalFormCode": "R4KK"
-      },
-      "EntityStatus": "ACTIVE",
-      "EntityCreationDate": "2016-03-18T00:00:00+00:00"
-    },
-    "Registration": {
-      "InitialRegistrationDate": "2021-07-27T07:07:14+00:00",
-      "LastUpdateDate": "2022-02-23T15:28:31+00:00",
-      "RegistrationStatus": "LAPSED",
-      "NextRenewalDate": "2022-07-27T07:07:14+00:00",
-      "ManagingLOU": "529900T8BM49AURSDO55",
-      "ValidationSources": "FULLY_CORROBORATED",
-      "ValidationAuthority": {
-        "ValidationAuthorityID": "RA000014",
-        "ValidationAuthorityEntityID": "611 393 554"
-      }
-    }
-  },
-  {
-    "LEI": "98450051BS9C610A8T78",
-    "AdditionalIDs": [],
-    "Entity": {
-      "LegalName": "MONOOVA FX PTY LTD",
-      "OtherEntityNames": [
-        {
-          "type": "PREVIOUS_LEGAL_NAME",
-          "OtherEntityName": "MONEYTECH FX PTY LTD"
-        },
-        {
-          "type": "PREVIOUS_LEGAL_NAME",
-          "OtherEntityName": "360 MARKETS PTY LTD"
-        },
-        {
-          "type": "PREVIOUS_LEGAL_NAME",
-          "OtherEntityName": "360FX PTY LTD"
-        },
-        {
-          "type": "PREVIOUS_LEGAL_NAME",
-          "OtherEntityName": "CAPITAL AND FINANCE FOREX PTY LTD"
-        }
-      ],
-      "LegalAddress": {
-        "FirstAddressLine": "LEVEL 7",
-        "AdditionalAddressLine": "80 PACIFIC HIGHWAY",
-        "City": "NORTH SYDNEY",
-        "Region": "AU-NSW",
-        "Country": "AU",
-        "PostalCode": "2060"
-      },
-      "HeadquartersAddress": {
-        "FirstAddressLine": "LEVEL 7",
-        "AdditionalAddressLine": "80 PACIFIC HIGHWAY",
-        "City": "NORTH SYDNEY",
-        "Region": "AU-NSW",
-        "Country": "AU",
-        "PostalCode": "2060"
-      },
-      "RegistrationAuthority": {
-        "RegistrationAuthorityID": "RA000014",
-        "RegistrationAuthorityEntityID": "151 337 852"
-      },
-      "LegalJurisdiction": "AU",
-      "EntityCategory": "GENERAL",
-      "LegalForm": {
-        "EntityLegalFormCode": "TXVC"
-      },
-      "EntityStatus": "ACTIVE",
-      "EntityCreationDate": "2011-06-07T00:00:00+00:00",
-      "LegalEntityEvents": [
-        {
-          "LegalEntityEventType": "CHANGE_LEGAL_ADDRESS",
-          "LegalEntityEventEffectiveDate": "2022-09-13T00:00:00+00:00",
-          "LegalEntityEventRecordedDate": "2023-03-30T14:18:04+00:00",
-          "ValidationDocuments": "SUPPORTING_DOCUMENTS"
-        }
-      ]
-    },
-    "Registration": {
-      "InitialRegistrationDate": "2019-05-15T12:21:06+00:00",
-      "LastUpdateDate": "2023-03-30T14:18:04+00:00",
-      "RegistrationStatus": "ISSUED",
-      "NextRenewalDate": "2024-05-15T00:00:00+00:00",
-      "ManagingLOU": "529900T8BM49AURSDO55",
-      "ValidationSources": "FULLY_CORROBORATED",
-      "ValidationAuthority": {
-        "ValidationAuthorityID": "RA000014",
-        "ValidationAuthorityEntityID": "151 337 852"
-      }
-    }
-  }
+{
+				"_index": "entity",
+				"_id": "618325a5-26e2-a7a0-e0a2-6e9b4ad14432",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "618325a5-26e2-a7a0-e0a2-6e9b4ad14432",
+					"declarationSubject": "GB-COH-06376343",
+					"statementDate": "2016-04-06",
+					"recordId": "CZ-DIC-00507814",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Linet Spol. S.R.O",
+						"alternateNames": [],
+						"jurisdiction": {
+							"name": "Czechia",
+							"code": "CZ"
+						},
+						"identifiers": [
+							{
+								"id": "00507814",
+								"scheme": "CZ-DIC",
+								"schemeName": "Tax ID (DIČ) Czech Republic",
+								"uri": "http://www.kurzy.cz/dic/"
+							}
+						],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "Linet Spol. S.R.O, Slany - Zelevcice Cp. 5, Slany",
+								"country": {
+									"name": "Czech Republic",
+									"code": ""
+								}
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "67784a77-1ee3-5e2f-94a4-427a53de3406",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "67784a77-1ee3-5e2f-94a4-427a53de3406",
+					"declarationSubject": "GB-COH-09950136",
+					"statementDate": "2016-04-06",
+					"recordId": "GB-COH-ENT-09950136-z-n2sy2Je-w-SZe5fW2YCyzsNMM",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Tambak Ltd",
+						"alternateNames": [],
+						"jurisdiction": {
+							"name": "United Kingdom",
+							"code": "GB"
+						},
+						"identifiers": [],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "17 Maybrook Road, Maybrook Business Park, Minworth, Sutton Coldfield, England",
+								"country": {
+									"name": "United Kingdom",
+									"code": "GB"
+								},
+								"postCode": "B76 1AL"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "c5b563ae-0f89-77dc-62b3-9debdcf86f6b",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "c5b563ae-0f89-77dc-62b3-9debdcf86f6b",
+					"declarationSubject": "GB-COH-04550362",
+					"statementDate": "2016-04-06",
+					"recordId": "SE-ON-556893-0308",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Cambio Healthcare Systems Ab",
+						"alternateNames": [],
+						"jurisdiction": {
+							"name": "Sweden",
+							"code": "SE"
+						},
+						"identifiers": [
+							{
+								"id": "556893-0308",
+								"scheme": "SE-ON",
+								"schemeName": "Business Registration Number (Organisationsnummer), Sweden",
+								"uri": "http://www.bolagsverket.se/ff/foretagsformer/organisationsnummer-1.7902"
+							}
+						],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "92 Gamla Tanneforsvägen, Linköping",
+								"country": {
+									"name": "Sweden",
+									"code": ""
+								},
+								"postCode": "582 54"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "a24867d4-5f97-1592-d17d-d8435f729afa",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "a24867d4-5f97-1592-d17d-d8435f729afa",
+					"declarationSubject": "GB-COH-05558172",
+					"statementDate": "2016-04-20",
+					"recordId": "GB-COH-ENT-05558172-P7NMtb5qJudwxZTPr9JsyURxHDk",
+					"recordStatus": "closed",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Prologis Inc",
+						"alternateNames": [],
+						"jurisdiction": {},
+						"identifiers": [
+							{
+								"id": "D04842092",
+								"scheme": null,
+								"schemeName": null
+							}
+						],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "7 St Paul Street, Suite 820, Baltimore, Maryland",
+								"country": {
+									"name": "Usa",
+									"code": ""
+								},
+								"postCode": "MD 21202"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "375e2df3-b680-9c62-d44b-b5ebda3d852d",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "375e2df3-b680-9c62-d44b-b5ebda3d852d",
+					"declarationSubject": "GB-COH-07381543",
+					"statementDate": "2016-04-06",
+					"recordId": "GB-COH-ENT-07381543-RyL-kS8ShqjALFwXBmw843Z9fQc",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Jockey Club Racecourses Limited",
+						"alternateNames": [],
+						"jurisdiction": {
+							"name": "United Kingdom",
+							"code": "GB"
+						},
+						"identifiers": [],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "75 High Holborn, London, England",
+								"country": {
+									"name": "United Kingdom",
+									"code": "GB"
+								},
+								"postCode": "WC1V 6LS"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "86f09411-50fc-381f-c555-84dc72d4699a",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "86f09411-50fc-381f-c555-84dc72d4699a",
+					"declarationSubject": "GB-COH-07381543",
+					"statementDate": "2016-04-06",
+					"recordId": "GB-COH-ENT-07381543-TFhE1yrWmpeCDVlJwNA5pfZxAhg",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Ascot Racecourse Limited",
+						"alternateNames": [],
+						"jurisdiction": {
+							"name": "United Kingdom",
+							"code": "GB"
+						},
+						"identifiers": [],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "Ascot Racecourse, High Street, Ascot, England",
+								"country": {
+									"name": "United Kingdom",
+									"code": "GB"
+								},
+								"postCode": "SL5 7JX"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "f4f08670-3f0e-421c-e606-4a489a30ada7",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "f4f08670-3f0e-421c-e606-4a489a30ada7",
+					"declarationSubject": "GB-COH-06744186",
+					"statementDate": "2016-04-06",
+					"recordId": "GB-COH-ENT-06744186-EpI4sbfNv6HCHhy0IkwWio-hLa4",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Ipwg",
+						"alternateNames": [],
+						"jurisdiction": {},
+						"identifiers": [
+							{
+								"id": "Us43848107",
+								"scheme": null,
+								"schemeName": null
+							}
+						],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "1420 Celebration Blvd, Kissimmee, Florida",
+								"country": {
+									"name": "United States",
+									"code": ""
+								},
+								"postCode": "FL34747"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "1b7ff814-d434-1b8a-ec2f-d2b3226d1a6f",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "1b7ff814-d434-1b8a-ec2f-d2b3226d1a6f",
+					"declarationSubject": "GB-COH-10384483",
+					"statementDate": "2016-09-20",
+					"recordId": "GB-COH-ENT-10384483-f27TT0u7NrfRU868ftYCOUwxgRI",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Dormole Limited",
+						"alternateNames": [],
+						"jurisdiction": {
+							"name": "United Kingdom",
+							"code": "GB"
+						},
+						"identifiers": [],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "Long Reach, Galleon Boulevard, Crossways Business Park, Dartford, England",
+								"country": {
+									"name": "United Kingdom",
+									"code": "GB"
+								},
+								"postCode": "DA2 6QE"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "ddffe4b0-4a89-b944-16c5-4b9b851a3233",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "ddffe4b0-4a89-b944-16c5-4b9b851a3233",
+					"declarationSubject": "GB-COH-03628883",
+					"statementDate": "2016-04-06",
+					"recordId": "GB-COH-ENT-03628883-sozhZ1CqCfGg6nvl_a1qv1KGwGE",
+					"recordStatus": "closed",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Duchally House Resorts Limited",
+						"alternateNames": [],
+						"jurisdiction": {},
+						"identifiers": [
+							{
+								"id": "0009287c",
+								"scheme": null,
+								"schemeName": null
+							}
+						],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "28 Finch Road, Douglas",
+								"country": {
+									"name": "Isle Of Man",
+									"code": ""
+								},
+								"postCode": "1M1 2PS"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "5653c740-c90e-d627-b540-2fa798166c88",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "5653c740-c90e-d627-b540-2fa798166c88",
+					"declarationSubject": "GB-COH-06135417",
+					"statementDate": "2017-02-02",
+					"recordId": "GB-COH-ENT-06135417-4y5TTIhrSRcaKjymuSggD6m4qiQ",
+					"recordStatus": "closed",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Reliance Steel And Aluminum",
+						"alternateNames": [],
+						"jurisdiction": {},
+						"identifiers": [
+							{
+								"id": "05645980",
+								"scheme": null,
+								"schemeName": null
+							}
+						],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "350 South Grand Avenue, Suite 5100 Los Angeles, Suite 5100, Los Angeles, California",
+								"country": {
+									"name": "United States",
+									"code": ""
+								},
+								"postCode": "90071"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "c2834b15-5bed-543f-c304-3b4cebdbea42",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "c2834b15-5bed-543f-c304-3b4cebdbea42",
+					"declarationSubject": "GB-COH-06139367",
+					"statementDate": "2016-06-30",
+					"recordId": "GB-COH-ENT-06139367-TJ2xVsKYdAYWac0i7I3RT4XzrZ4",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Iecommerce Ltd",
+						"alternateNames": [],
+						"jurisdiction": {
+							"name": "United Kingdom",
+							"code": "GB"
+						},
+						"identifiers": [],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "29a, High Street, Hythe, Southampton, England",
+								"country": {
+									"name": "United Kingdom",
+									"code": "GB"
+								},
+								"postCode": "SO45 6AG"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "b60cb698-42dc-3b1e-e3fc-b8eb7da2df17",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "b60cb698-42dc-3b1e-e3fc-b8eb7da2df17",
+					"declarationSubject": "GB-COH-OE010994",
+					"statementDate": "2023-09-27",
+					"recordId": "GB-COH-ENT-OE010994-f_l63HRUApM0ANFZimDNuk5etwc",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Pact Limited",
+						"alternateNames": [],
+						"jurisdiction": {},
+						"identifiers": [
+							{
+								"id": "00102646",
+								"scheme": null,
+								"schemeName": null
+							}
+						],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "6 Esplanade, St Helier",
+								"country": {
+									"name": "Jersey",
+									"code": ""
+								},
+								"postCode": "JE1 1BX"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "c5c198b7-9b42-63a0-1456-68208c3cb03f",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "c5c198b7-9b42-63a0-1456-68208c3cb03f",
+					"declarationSubject": "GB-COH-OE010994",
+					"statementDate": "2010-04-06",
+					"recordId": "GB-COH-ENT-OE010994-CiHtH4CmtXRr-cUqqaVs3n-jX_0",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Consilia Management Aktiengesellschaft",
+						"alternateNames": [],
+						"jurisdiction": {},
+						"identifiers": [
+							{
+								"id": "Fl-0002.051.342-3",
+								"scheme": null,
+								"schemeName": null
+							}
+						],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "6 Esplanade, St Helier",
+								"country": {
+									"name": "Jersey",
+									"code": ""
+								},
+								"postCode": "JE1 1BX"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "e64b1621-c813-f589-999c-64b15f0ce42a",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "e64b1621-c813-f589-999c-64b15f0ce42a",
+					"declarationSubject": "GB-COH-08782131",
+					"statementDate": "2022-02-18",
+					"recordId": "GB-COH-ENT-08782131-yR7gfacw7zAI8J-K0Xu8CbgYGwI",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Iqvia Ltd.",
+						"alternateNames": [],
+						"jurisdiction": {
+							"name": "United Kingdom",
+							"code": "GB"
+						},
+						"identifiers": [],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "3 Forbury Place, 23 Forbury Road, Reading, England",
+								"country": {
+									"name": "United Kingdom",
+									"code": "GB"
+								},
+								"postCode": "RG1 3JH"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "82aa63d5-d350-d374-3c58-08e2cda4de4f",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "82aa63d5-d350-d374-3c58-08e2cda4de4f",
+					"declarationSubject": "GB-COH-13436311",
+					"statementDate": "2022-03-01",
+					"recordId": "GB-COH-ENT-13436311-LB69Sl1s0bL_GaX6jXIE4oY6zhg",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Sevket Dagdas",
+						"alternateNames": [],
+						"jurisdiction": {
+							"name": "United Kingdom",
+							"code": "GB"
+						},
+						"identifiers": [],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "71-75, Shelton Street, 71-75, London, England",
+								"country": {
+									"name": "United Kingdom",
+									"code": "GB"
+								},
+								"postCode": "WC2H 9JQ"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "ff942a9c-abaf-33a9-dbc3-c8f394c0f1f6",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "ff942a9c-abaf-33a9-dbc3-c8f394c0f1f6",
+					"declarationSubject": "GB-COH-10651141",
+					"statementDate": "2022-01-07",
+					"recordId": "GB-COH-ENT-10651141-YfDt3UY4x8sWHWLAXYyvumcfBO4",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Jks Restaurants Holdings Limited",
+						"alternateNames": [],
+						"jurisdiction": {
+							"name": "United Kingdom",
+							"code": "GB"
+						},
+						"identifiers": [],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "67-69, George Street, London, England",
+								"country": {
+									"name": "United Kingdom",
+									"code": "GB"
+								},
+								"postCode": "W1U 8LT"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "da6a8307-08f9-c9f8-11dc-8402e4b8b80f",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "da6a8307-08f9-c9f8-11dc-8402e4b8b80f",
+					"declarationSubject": "GB-COH-09762822",
+					"statementDate": "2016-04-06",
+					"recordId": "GB-COH-ENT-09762822-DoWANr14jbQNpW0zuW529lnM85A",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Chf Media Group Limited",
+						"alternateNames": [],
+						"jurisdiction": {
+							"name": "United Kingdom",
+							"code": "GB"
+						},
+						"identifiers": [],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "2 Hurle Road, Bristol, England",
+								"country": {
+									"name": "United Kingdom",
+									"code": "GB"
+								},
+								"postCode": "BS8 2SY"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "05202f01-e0d9-9e51-2a8a-17623aacf195",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "05202f01-e0d9-9e51-2a8a-17623aacf195",
+					"declarationSubject": "GB-COH-03333616",
+					"statementDate": "2016-04-06",
+					"recordId": "GB-COH-ENT-03333616-4On_AMoyULHO5S9fmpr937Lj5vQ",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Robinson (Church Street) Ltd",
+						"alternateNames": [],
+						"jurisdiction": {
+							"name": "United Kingdom",
+							"code": "GB"
+						},
+						"identifiers": [],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "51 Albert Street, London, England",
+								"country": {
+									"name": "United Kingdom",
+									"code": "GB"
+								},
+								"postCode": "NW1 7LX"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "fcfd58cb-36d3-9b40-5455-d1d2308aba2b",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "fcfd58cb-36d3-9b40-5455-d1d2308aba2b",
+					"declarationSubject": "GB-COH-10677046",
+					"statementDate": "2017-03-17",
+					"recordId": "GB-COH-ENT-10677046-hTkEqi3Jg-B2gRyTqHkXE64oSJs",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Shed 2 Ltd",
+						"alternateNames": [],
+						"jurisdiction": {
+							"name": "United Kingdom",
+							"code": "GB"
+						},
+						"identifiers": [],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "Bedford Technology Park, Thurleigh Airfield Business Park, Thurleigh, Bedford",
+								"country": {
+									"name": "United Kingdom",
+									"code": ""
+								},
+								"postCode": "MK44 2YP"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "51ad0e5d-9b27-1263-3066-714b44f6102f",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "51ad0e5d-9b27-1263-3066-714b44f6102f",
+					"declarationSubject": "GB-COH-09469937",
+					"statementDate": "2016-04-06",
+					"recordId": "GB-COH-ENT-09469937-cOeYJyGM4dXBqSbXtiUe-TPBrZc",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Poole Investments Ltd",
+						"alternateNames": [],
+						"jurisdiction": {
+							"name": "United Kingdom",
+							"code": "GB"
+						},
+						"identifiers": [],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "Decimal Place, Chiltern Avenue, Amersham, England",
+								"country": {
+									"name": "United Kingdom",
+									"code": "GB"
+								},
+								"postCode": "HP6 5FG"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "a2eac123-d753-3d70-b698-3b458ce0dcb1",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "a2eac123-d753-3d70-b698-3b458ce0dcb1",
+					"declarationSubject": "GB-COH-09493337",
+					"statementDate": "2016-04-06",
+					"recordId": "GB-COH-ENT-09493337-1DpAj7igb5sxOv__i6OkiXGjiIg",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Amazon.Com, Inc",
+						"alternateNames": [],
+						"jurisdiction": {},
+						"identifiers": [],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "410 Terry Avenue North, Seattle, Washington 98109-5210",
+								"country": {
+									"name": "United States",
+									"code": ""
+								}
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "bf07c809-bdf5-1dcb-4eb4-90b16d3ad708",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "bf07c809-bdf5-1dcb-4eb4-90b16d3ad708",
+					"declarationSubject": "GB-COH-03616232",
+					"statementDate": "2016-04-06",
+					"recordId": "GB-COH-ENT-03616232-T4WbB6u9VHWWIyrR9rmDFT0yJmY",
+					"recordStatus": "closed",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Ca Foreign Spain S.L.",
+						"alternateNames": [],
+						"jurisdiction": {},
+						"identifiers": [
+							{
+								"id": "Volume 33.226, Sheet 28, Page B-218.129",
+								"scheme": null,
+								"schemeName": null
+							}
+						],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "Wtc - Almeda Park - Placa De La Pau, S/N - Edificio 2, Planta 4a - 08940 Cornellá De Llobregat, Barcelona",
+								"country": {
+									"name": "Spain",
+									"code": ""
+								}
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "5ba3ee55-50df-3092-133f-1c621737f988",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "5ba3ee55-50df-3092-133f-1c621737f988",
+					"declarationSubject": "GB-COH-13955331",
+					"statementDate": "2022-03-04",
+					"recordId": "GB-COH-ENT-13955331-HRUWhDbmldalz1BKKX3ThTLS-8k",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Affiliated Managers Group, Inc.",
+						"alternateNames": [],
+						"jurisdiction": {},
+						"identifiers": [
+							{
+								"id": "02365895",
+								"scheme": null,
+								"schemeName": null
+							}
+						],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "777 South Flagler Drive, Suite 1401 East Tower, West Palm Beach",
+								"country": {
+									"name": "United States",
+									"code": ""
+								},
+								"postCode": "FL 33401"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "020a2599-7e1d-a4a3-b325-6a026e9fb2f9",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "020a2599-7e1d-a4a3-b325-6a026e9fb2f9",
+					"declarationSubject": "GB-COH-11684020",
+					"statementDate": "2022-03-04",
+					"recordId": "CH-FDJP-Uid Number: Che-114.520.453",
+					"recordStatus": "closed",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Medlog Sa",
+						"alternateNames": [],
+						"jurisdiction": {
+							"name": "Switzerland",
+							"code": "CH"
+						},
+						"identifiers": [
+							{
+								"id": "Uid Number: Che-114.520.453",
+								"scheme": "CH-FDJP",
+								"schemeName": "Commercial Registry, Federal Office of Justice (Switzerland)",
+								"uri": "https://www.zefix.ch/de/search/entity/welcome"
+							}
+						],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "12-14, Chemin Rieu, 1208, Geneve",
+								"country": {
+									"name": "Switzerland",
+									"code": ""
+								}
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "d9761d63-4ed1-bb25-5ed2-6847c443b738",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "d9761d63-4ed1-bb25-5ed2-6847c443b738",
+					"declarationSubject": "GB-COH-OE005245",
+					"statementDate": "2023-05-29",
+					"recordId": "GB-COH-ENT-OE005245-m9Q9U_5lwnQV1UfLhrmj6Ipaut0",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Roseberry (Ptc) Limited",
+						"alternateNames": [],
+						"jurisdiction": {},
+						"identifiers": [
+							{
+								"id": "0020850v",
+								"scheme": null,
+								"schemeName": null
+							}
+						],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "Chesterfield Suite, Chesterfield House, Victoria Street, Douglas",
+								"country": {
+									"name": "Isle Of Man",
+									"code": ""
+								},
+								"postCode": "IM1 2LR"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "3800f8d0-8b3a-026a-683b-5d240c0181d7",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "3800f8d0-8b3a-026a-683b-5d240c0181d7",
+					"declarationSubject": "GB-COH-10023057",
+					"statementDate": "2016-06-30",
+					"recordId": "GB-COH-0104-01-066843",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Jfla Holdings Inc",
+						"alternateNames": [],
+						"jurisdiction": {},
+						"identifiers": [
+							{
+								"id": "0104-01-066843",
+								"scheme": "GB-COH",
+								"schemeName": "Companies House",
+								"uri": "https://www.gov.uk/government/organisations/companies-house"
+							}
+						],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "Gotanda Miyuki Bld 3f, 1-3-8 Nishigotanda, Shinagawa-Ku, Tokyo",
+								"country": {
+									"name": "Japan",
+									"code": ""
+								},
+								"postCode": "141 0031"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "409266f1-5a0b-fc43-37ad-efd44853f503",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "409266f1-5a0b-fc43-37ad-efd44853f503",
+					"declarationSubject": "GB-COH-10383973",
+					"statementDate": "2016-09-19",
+					"recordId": "GB-COH-ENT-10383973-Ow-iU5hV_SA8cbC5EAr_jnUue64",
+					"recordStatus": "closed",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Alma Learning Group Sas",
+						"alternateNames": [],
+						"jurisdiction": {},
+						"identifiers": [
+							{
+								"id": "538 761 115 R.C.S.",
+								"scheme": null,
+								"schemeName": null
+							}
+						],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "76-78 Rue Saint-Lazare, Paris",
+								"country": {
+									"name": "France",
+									"code": ""
+								},
+								"postCode": "75009"
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "e728a2c3-390c-65d1-1ba2-430a67913c26",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "e728a2c3-390c-65d1-1ba2-430a67913c26",
+					"declarationSubject": "GB-COH-05917012",
+					"statementDate": "2016-04-06",
+					"recordId": "None-A033/01/11/2997",
+					"recordStatus": "closed",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Vogue Asia Ltd",
+						"alternateNames": [],
+						"jurisdiction": {
+							"name": "United Arab Emirates",
+							"code": "AE"
+						},
+						"identifiers": [
+							{
+								"id": "A033/01/11/2997",
+								"scheme": null,
+								"schemeName": null
+							}
+						],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "P O Box 1961, Al-Makheoun Street, Deira, Dubai",
+								"country": {
+									"name": "United Arab Emirates",
+									"code": "AE"
+								}
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			},
+			{
+				"_index": "entity",
+				"_id": "deebc30d-54ef-d717-a346-cf0667f5baee",
+				"_score": 1.0,
+				"_source": {
+					"statementId": "deebc30d-54ef-d717-a346-cf0667f5baee",
+					"declarationSubject": "GB-COH-01114562",
+					"statementDate": "2016-04-06",
+					"recordId": "US-SAM-4455475000",
+					"recordStatus": "new",
+					"recordType": "entity",
+					"recordDetails": {
+						"isComponent": false,
+						"entityType": {
+							"type": "registeredEntity"
+						},
+						"name": "Haverly Systems Inc.",
+						"alternateNames": [],
+						"jurisdiction": {
+							"name": "United States",
+							"code": "US"
+						},
+						"identifiers": [
+							{
+								"id": "4455475000",
+								"scheme": "US-SAM",
+								"schemeName": "System for Award Management (SAM) Unique Entity ID, USA",
+								"uri": "https://sam.gov/content/entity-registration"
+							}
+						],
+						"foundingDate": null,
+						"addresses": [
+							{
+								"type": "service",
+								"address": "12 Hinchman Ave, Denville, Nj07834",
+								"country": {
+									"name": "United States",
+									"code": ""
+								}
+							}
+						],
+						"publicListing": {
+							"hasPublicListing": false
+						}
+					},
+					"annotations": [],
+					"publicationDetails": {
+						"publicationDate": "2025-03-05",
+						"bodsVersion": "0.4",
+						"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+						"publisher": {
+							"name": "Open Ownership",
+							"url": "https://www.openownership.org"
+						}
+					},
+					"source": {
+						"type": [
+							"officialRegister"
+						],
+						"assertedBy": [
+							{
+								"name": "Companies House",
+								"uri": "https://find-and-update.company-information.service.gov.uk/"
+							}
+						],
+						"url": "https://download.companieshouse.gov.uk/en_output.html"
+					}
+				}
+			}
 ]
